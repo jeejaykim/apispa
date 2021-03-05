@@ -34,13 +34,13 @@
         <title>Version 4.0</title>
         <pubDate>Sat, 26 Jul 2021 15:20:13 +0000</pubDate>
         <enclosure url="http://localhost:1337/Sparkle_Test_App.zip" sparkle:version="4.0" sparkle:os="iOS" />
-        <sparkle:minimumSystemVersion>115.0.0</sparkle:minimumSystemVersion>
+        <sparkle:minimumSystemVersion>110.0.0</sparkle:minimumSystemVersion>
     </item>
     <!-- A joke release testing maximumSystemVersion -->
     <item>
         <title>Version 5.0</title>
         <sparkle:version>5.0</sparkle:version>
-        <sparkle:maximumSystemVersion>200.0.0</sparkle:maximumSystemVersion>
+        <sparkle:maximumSystemVersion>110.1.0</sparkle:maximumSystemVersion>
     </item>
   </channel>
 </rss>
