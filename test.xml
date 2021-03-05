@@ -3,25 +3,25 @@
   <channel>
     <title>For unit test only</title>
     <item>
-        <title>Version 2.0</title>
+        <title>Version 110.0.0</title>
         <description>desc</description>
         <pubDate>Sat, 26 Jul 2020 15:20:11 +0000</pubDate>
-        <enclosure url="http://localhost:1337/Sparkle_Test_App.zip" sparkle:version="110.0.0" />
+        <enclosure url="" sparkle:version="110.0.0" />
         <sparkle:tags> <sparkle:criticalUpdate /> </sparkle:tags> 
     </item>
     <!-- The best chosen release -->
     <item>
-        <title>Version 150.0.0</title>
+        <title>Version 120.0.0</title>
         <enclosure url="http://localhost:1337/Sparkle_Test_App.zip" sparkle:version="120.0.0" sparkle:os="android" />
         <sparkle:deltas>
-            <enclosure url="http://localhost:1337/3.0_from_2.0.patch"
+            <enclosure url=""
             sparkle:version="120.0.0"
             sparkle:deltaFrom="2.0"
             length="1235"
             type="application/octet-stream"
             sparkle:edSignature="..." />
             
-            <enclosure url="http://localhost:1337/3.0_from_1.0.patch"
+            <enclosure url=""
             sparkle:version="120.0.0"
             sparkle:deltaFrom="1.0"
             length="1485"
@@ -33,13 +33,13 @@
       <item>
         <title>Version 4.1</title>
         <pubDate>Sat, 26 Jul 2020 15:20:13 +0000</pubDate>
-        <enclosure url="http://localhost:1337/Sparkle_Test_App.zip" sparkle:version="115.0.0" sparkle:os="android" />
+        <enclosure url="" sparkle:version="115.0.0" sparkle:os="android" />
         <sparkle:minimumSystemVersion>115.0.0</sparkle:minimumSystemVersion>
     </item>
     <!-- A joke release testing maximumSystemVersion -->
     <item>
-        <title>Version 5.0</title>
-        <sparkle:version>5.0</sparkle:version>
+        <title>Version 200.0.0</title>
+        <sparkle:version>200.0.0</sparkle:version>
         <sparkle:maximumSystemVersion>200.0.0</sparkle:maximumSystemVersion>
     </item>
   </channel>
